@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery學習筆記</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <h1>jQuery學習筆記</h1>
+    <h2>1.點擊jQuery獲得元素以及點擊事件</h2>
+    <p>
+        使用$("要選取的元素")可以獲得元素，後面添加.click()設定點擊事件，點擊下方的隱藏按鈕可以將標題三隱藏。
+    </p>
+    <h3 id="h3-1">我是標題三</h3>
+    <div id="hide-1" class="btn">隱藏</div>
+    <div id="show-1" class="btn">顯示</div>
+    <div id="toggle-1" class="btn">切換</div>
+
+    <h2>2.認識函數的參數</h2>
+    <p>
+        hide show 的參數有duration代表時間 complete代表完成後要執行的函式
+    </p>
+    <h3 id="h3-2">我是標題三</h3>
+    <div id="hide-2" class="btn">隱藏</div>
+    <div id="show-2" class="btn">顯示</div>
+
+    <h2>3.滑入滑出效果</h2>
+    <p>
+        slideUp與slideDown函式應用
+    </p>
+    <h3 id="h3-3">我是標題三</h3>
+    <h3 id="h4-3">我是標題四</h3>
+    <div id="slideUp-3" class="btn">滑上</div>
+    <div id="slideDown-3" class="btn">滑下</div>
+
+    <h2>4.css函式應用</h2>
+    <p>
+        addClass 可以幫指定元素加樣式
+    </p>
+    <h3 id="box-4">我是箱子</h3>
+    <h3 id="btn-4" class="btn">按鈕</h3>
+
+    <script src="./script.js"></script>
+</body>
+</html>
